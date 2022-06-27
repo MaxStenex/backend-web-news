@@ -12,11 +12,11 @@ import { Comment } from "./comment/comment.entity";
   imports: [
     TypeOrmModule.forRoot({
       type: "mysql",
-      host: "sql4.freemysqlhosting.net",
+      host: "sql8.freemysqlhosting.net",
       port: 3306,
-      username: "sql4501820",
-      password: "fmKwVE3L2j",
-      database: "sql4501820",
+      username: "sql8502580",
+      password: "MlCkxgB2x2",
+      database: "sql8502580",
       entities: [User, Post, Comment],
       synchronize: false,
     }),
